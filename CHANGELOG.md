@@ -5,17 +5,19 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.0] - 2026-06-12
+## [0.3.0] - 2026-06-15
 
 ### Added
 - Added new service routes for 'tesoreria-guarani-service' (`/api/tesoreria/guarani/**`) and 'tesoreria-umhub-service' (`/api/tesoreria/umhub/**`)
+- Extended CORS configuration to support `192.168.1.*` network
 
 ### Changed
-- Updated Spring Boot version to 4.0.7 (from 4.0.6)
-- Updated Spring Cloud version to 2025.1.1 (from 2025.1.0)
+- Updated Spring Boot version to 4.1.0 (from 4.0.7)
+- Updated Spring Cloud version to 2025.1.2 (from 2025.1.1)
+- Updated architecture and deployment diagrams with new services
 
 ### Technical
-- Java 25, Spring Boot 4.0.7, Spring Cloud 2025.1.1
+- Java 25, Spring Boot 4.1.0, Spring Cloud 2025.1.2
 
 ## [0.2.0] - 2026-05-07
 
