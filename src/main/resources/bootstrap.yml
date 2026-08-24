@@ -59,10 +59,14 @@ spring:
               uri: lb://tesoreria-sender-service
               predicates:
                 - Path=/api/tesoreria/sender/**
-            - id: mercadopago-service
+            - id: tesoreria-mercadopago-service
               uri: lb://tesoreria-mercadopago-service
               predicates:
                 - Path=/api/tesoreria/mercadopago/**
+            - id: tesoreria-aura-service
+              uri: lb://tesoreria-aura-service
+              predicates:
+                - Path=/api/tesoreria/aura/**
             - id: tesoreria-chequera-backend
               uri: lb://tesoreria-chequera-backend
               predicates:
