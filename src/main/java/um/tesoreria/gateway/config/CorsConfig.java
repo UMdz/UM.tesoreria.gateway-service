@@ -26,11 +26,15 @@ public class CorsConfig {
                 "http://192.168.201.*:[*]",
                 "http://192.168.7.*:[*]",
                 "http://192.168.1.*:[*]",
+                "http://10.147.20.*[*]",
+                "http://172.16.201.*[*]",
                 "https://localhost:[*]",
                 "https://127.0.0.1:[*]",
                 "https://192.168.201.*:[*]",
                 "https://192.168.7.*:[*]",
-                "https://192.168.1.*:[*]"
+                "https://192.168.1.*:[*]",
+                "https://10.147.20.*[*]",
+                "https://172.16.201.*[*]"
         ));
         corsConfig.setMaxAge(3600L);
         corsConfig.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "PATCH"));
