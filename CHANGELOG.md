@@ -5,6 +5,14 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.2] - 2026-08-25
+
+### Fixed
+- Corregida sintaxis de patrones CORS para redes `10.147.20.*` y `172.16.201.*` (formato HTTP y HTTPS)
+
+### Technical
+- Java 25, Spring Boot 4.1.0, Spring Cloud 2025.1.2
+
 ## [0.4.1] - 2026-08-25
 
 ### Changed
