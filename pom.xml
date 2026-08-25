@@ -12,7 +12,7 @@
 
 	<groupId>ar.edu</groupId>
 	<artifactId>um.tesoreria.gateway-service</artifactId>
-	<version>0.4.0</version>
+	<version>0.4.1</version>
 	<name>UM.tesoreria.gateway-service</name>
 	<description>Spring Boot Microservice  Gateway</description>
 	<properties>
